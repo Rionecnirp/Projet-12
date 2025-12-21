@@ -1,20 +1,37 @@
 [
     {
-        "image": "image1.png",
+        "image": "Booki.webp",
         "title": "Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "text": "Description",
+        "link": "#",
+        "alt": "texte"
     },
     {
         "image": "image2.png",
-        "title": "Mon Vieux grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "title": "Sophie Bluel",
+        "text": "Description",
+        "link": "https://github.com/Rionecnirp/Projet-7-Sophie-Bluel",
+        "alt": "texte"
     },
     {
-        "image": "image3.png",
+        "image": "Kasa.webp",
         "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "text": "Description",
+        "link": "https://github.com/Rionecnirp/KASA",
+        "alt": "texte"
+    },
+    {
+        "image": "Kasa.webp",
+        "title": "Eco Bliss Bath",
+        "text": "Description",
+        "link": "https://github.com/Rionecnirp/Eco-Bliss-Bath",
+        "alt": "texte"
+    },
+    {
+        "image": "Kasa.webp",
+        "title": "Print it",
+        "text": "Description",
+        "link": "https://github.com/Rionecnirp/Projet-6-Print-it",
+        "alt": "texte"
     }
 ]
