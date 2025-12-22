@@ -28,7 +28,7 @@
 .bgimage {
     height: 100vh;
     max-height: 900px;
-    background: url("images/star_background.webp");
+    background: url("images/star_background_50.webp");
     background-size: cover;
     position: relative;
 }
