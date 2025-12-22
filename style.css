@@ -19,12 +19,10 @@
 
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: black;
+    background-color: #5b5b5b;
 }
 
-.nav-link{
-    color: white;
-}
+
 
 /* hero background image */
 .bgimage {

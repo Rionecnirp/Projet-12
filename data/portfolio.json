@@ -4,34 +4,34 @@
         "title": "Booki",
         "text": "Description",
         "link": "#",
-        "alt": "texte"
+        "alt": "placeholder"
     },
     {
         "image": "image2.png",
         "title": "Sophie Bluel",
         "text": "Description",
         "link": "https://github.com/Rionecnirp/Projet-7-Sophie-Bluel",
-        "alt": "texte"
+        "alt": "placeholder"
     },
     {
         "image": "Kasa.webp",
         "title": "Kasa",
         "text": "Description",
         "link": "https://github.com/Rionecnirp/KASA",
-        "alt": "texte"
+        "alt": "placeholder"
     },
     {
         "image": "Kasa.webp",
         "title": "Eco Bliss Bath",
         "text": "Description",
         "link": "https://github.com/Rionecnirp/Eco-Bliss-Bath",
-        "alt": "texte"
+        "alt": "placeholder"
     },
     {
         "image": "Kasa.webp",
         "title": "Print it",
         "text": "Description",
         "link": "https://github.com/Rionecnirp/Projet-6-Print-it",
-        "alt": "texte"
+        "alt": "placeholder"
     }
 ]
