@@ -3,11 +3,11 @@
         "image": "Booki.webp",
         "title": "Booki",
         "text": "Description",
-        "link": "#",
+        "link": "https://github.com/Rionecnirp/Projet-3-Booki",
         "alt": "placeholder"
     },
     {
-        "image": "image2.png",
+        "image": "sophie-bluel.webp",
         "title": "Sophie Bluel",
         "text": "Description",
         "link": "https://github.com/Rionecnirp/Projet-7-Sophie-Bluel",
@@ -21,14 +21,14 @@
         "alt": "placeholder"
     },
     {
-        "image": "Kasa.webp",
+        "image": "eco-bliss-bath.webp",
         "title": "Eco Bliss Bath",
         "text": "Description",
         "link": "https://github.com/Rionecnirp/Eco-Bliss-Bath",
         "alt": "placeholder"
     },
     {
-        "image": "Kasa.webp",
+        "image": "print-it.webp",
         "title": "Print it",
         "text": "Description",
         "link": "https://github.com/Rionecnirp/Projet-6-Print-it",
