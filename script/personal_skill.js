@@ -1,36 +1,11 @@
-// Function to add the "navbarDark" class to the navbar on scroll
-function handleNavbarScroll() {
-    const header = document.querySelector(".navbar");
-    window.onscroll = function () {
-        const top = window.scrollY;
-        if (top >= 100) {
-            header.classList.add("navbarDark");
-        } else {
-            header.classList.remove("navbarDark");
-        }
-    };
-}
-
-// Function to handle navbar collapse on small devices after a click
-function handleNavbarCollapse() {
-    const navLinks = document.querySelectorAll(".nav-item");
-    const menuToggle = document.getElementById("navbarSupportedContent");
-
-    navLinks.forEach((link) => {
-        link.addEventListener("click", () => {
-            new bootstrap.Collapse(menuToggle).toggle();
-        });
-    });
-}
-
 // Function to dynamically create HTML elements from the JSON file
-function createSkillsFromJSON() {
-    const container = document.querySelector("#professional_skills");
+function createPersonalSkillsFromJSON() {
+    const container = document.querySelector("#personal_skills");
     let row = document.createElement("div");
     row.classList.add("row");
 
     // Load the JSON file
-    fetch("data/professional_skills.json")
+    fetch("data/personal_skills.json")
         .then((response) => response.json())
         .then((data) => {
             // Iterate through the JSON data and create HTML elements
@@ -38,7 +13,7 @@ function createSkillsFromJSON() {
                 const card = document.createElement("div");
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
-                    <div class="card skillsText">
+                    <div class="card personalSkillsText">
                         <div class="card-body">
                             <img src="./images/${item.image}" alt="${item.alt}"/>
                             <h3 class="card-title mt-3">${item.title}</h4>
@@ -60,9 +35,4 @@ function createSkillsFromJSON() {
         });
 }
 
-
-// Call the functions to execute the code
-handleNavbarScroll();
-handleNavbarCollapse();
-createSkillsFromJSON();
-
+createPersonalSkillsFromJSON();

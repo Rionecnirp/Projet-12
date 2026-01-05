@@ -1,0 +1,58 @@
+[
+    {
+        "image": "placeholder.webp",
+        "title": "Série de livres",
+        "text": "Description",
+        "link": "https://github.com/Rionecnirp/Projet-3-Booki",
+        "alt": "placeholder"
+    },
+    {
+        "image": "placeholder.webp",
+        "title": "Fan game Fire Emblem",
+        "text": "Description",
+        "link": "https://github.com/Rionecnirp/Projet-7-Sophie-Bluel",
+        "alt": "placeholder"
+    },
+    {
+        "image": "python.webp",
+        "title": "Apprentissage de Python",
+        "text": "Description",
+        "link": "https://github.com/Rionecnirp/KASA",
+        "alt": "placeholder"
+    },
+    {
+        "image": "Ruby_on_rails.webp",
+        "title": "Apprentissage de Ruby on Rails",
+        "text": "Description",
+        "link": "https://github.com/Rionecnirp/Eco-Bliss-Bath",
+        "alt": "placeholder"
+    },
+    {
+        "image": "placeholder.webp",
+        "title": "Mise à jour de modules Foundry",
+        "text": "Description",
+        "link": "https://github.com/Rionecnirp/Projet-6-Print-it",
+        "alt": "placeholder"
+    },
+    {
+        "image": "placeholder.webp",
+        "title": "Jeu de carte Caravan (Tabletop Simulator / Navigateur)",
+        "text": "Description",
+        "link": "https://github.com/Rionecnirp/Projet-6-Print-it",
+        "alt": "placeholder"
+    },
+    {
+        "image": "placeholder.webp",
+        "title": "Projet de groupe : Multimonde",
+        "text": "Description",
+        "link": "https://github.com/Rionecnirp/Projet-6-Print-it",
+        "alt": "placeholder"
+    },
+    {
+        "image": "placeholder.webp",
+        "title": "Wiki Anima : Beyond Fantasy FR",
+        "text": "Description",
+        "link": "https://github.com/Rionecnirp/Projet-6-Print-it",
+        "alt": "placeholder"
+    }
+]

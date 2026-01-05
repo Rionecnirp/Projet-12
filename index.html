@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Le Portfolio d'Alexandre BEN LARBI">
     <!-- linking css file -->
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- bootstrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" async>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stars.css">
 </head>
 
 <body>
@@ -46,98 +47,123 @@
             </div>
         </div>
     </nav>
-
     <!-- main banner -->
-    <section class="bgimage" id="home">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                    <h1 class="hero_title">Salutation, Je suis Alexandre</h1>
-                    <h2 class="hero_desc">Je suis "titre de l'emploi"</h2>
+    <main id="star-container">
+        <section class="bgimage" id="home">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                        <h1 class="hero_title">"La peinture est une poésie qui se voit au lieu de se sentir"</h1>
+                        <h2 class="hero_desc">"Et la poésie est une peinture qui se sent au lieu de se voir"</h2>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- about section-->
-    <section id="about">
-        <div class="container mt-4 pt-4">
-            <h2 class="text-center">A propos</h2>
-            <div class="row mt-4">
-                <div class="col-lg-4">
-                    <img src="images/Rio IA.webp" class="imageAboutPage" alt="placeholder">
-                </div>
-
-                <div class="col-lg-8">
-                    <p> 
-                        Texte de la section à propos
-                    </p>
-                    <div class="row mt-3">
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Nom: Alexandre BEN LARBI</li>
-                                <li>Age: 29</li>
-                                <li>xxx: xxx xxx</li>
-
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Nom: Mettre</li>
-                                <li>Age: autre chose</li>
-                                <li>xxx: xxx xxx</li>
-                            </ul>
-                        </div>
+        <!-- about section-->
+        <section id="about">
+            <div class="container mt-4 pt-4">
+                <h2 class="text-center">L'Auteur</h2>
+                <div class="row mt-4">
+                    <div class="col-lg-4">
+                        <img src="images/Rio IA.webp" class="imageAboutPage" alt="placeholder">
                     </div>
-                    <div class="row mt-3">
-                        <p> 
-                            Second texte de la section à propos
+
+                    <div class="col-lg-8">
+                        <p>
+                            Je me nomme Alexandre Ben Larbi, en 2021 je suis entré dans le monde du travail sous le poste de Technicien Support chez <a href="https://letsignit.com/fr">Letsignit</a>. En 2023 j'ai recherché d'autres horizons et j'ai trouvé un poste de Technicien Paramétrage à <a href="https://www.vtf-vacances.com/fr_FR/">VTF Vacances</a>. À présent, je recherche de nouvelles expériences.
                         </p>
+                        <p>
+                            Début 2026 marque la fin de ma formation diplômante au métier QA/testeur logiciel que j'ai suivi grâce à Openclassrooms. Pendance cette formation, j'ai appris à :
+                        </p>
+                        <ul>
+                            <li>
+                                Elaborer des stratégies de tests manuels et automatisés
+                            </li>
+                            <li>
+                                Détecter, documenter et suivre les anomalies des projets
+                            </li>
+                            <li>
+                                Suivre la méthodologie Agile, très utilisée en entreprise, pour pouvoir collaborer avec les équipes de développement
+                            </li>
+                            <li>
+                                Utiliser des outils comme Cypress, Git ou Notion
+                            </li>
+                        </ul>
+                        <p>Créateur dans l'âme je souhaite continuer de créer, continuer d'apprendre, continuer de progresser.</p>
+                        <p>Vous trouverez si dessous les compétences que je possède ainsi que les projets sur lesquels j'ai pu travailler.</p>
+                    </div>
+                </div>
+        </section>
+
+        <!-- skills section-->
+        <section id="skills">
+            <h2 class="text-center">Mes compétences</h2>
+            <article class="container" id="professional_skills">
+                <h3 class="text-center">Compétences liées à l'informatiques</h3>
+            </article>
+            <article class="container" id="personal_skills">
+                <h3 class="text-center">Compétences additionnelles</h3>
+            </article>
+
+            
+        </section>
+
+        <!-- portfolio section-->
+        <section id="portfolio">
+            <h2 class="text-center">Mes projets</h2>
+            <article class="container mt-3" id="professional_portfolio">
+                <h3 class="text-center">Projets professionnels</h3>
+            </article>
+
+            <article class="container mt-3" id="personal_portfolio">
+                <h3 class="text-center">Projets personnels</h3>
+                <div id="personal_portfolio_done">
+                    <h4 class="text-center">Projets accomplis</h4>
+                </div>
+                <div id="personal_portfolio_future">
+                    <h4 class="text-center">Projets futurs</h4>
+                </div>
+            </article>
+        </section>
+
+        <!-- contact section-->
+        <section id="contact">
+            <div class="container mt-3 contactContent">
+                <h2 class="text-center">Contactez-moi</h2>
+                <div class="row">
+                    <div class="col-lg-4 mt-4 contactColumn">
+                        <i class="fa-solid fa-phone fa-4x"></i>
+                        <h3>Téléphone</h3>
+                        <p>Non</p>
+                    </div>
+                    <div class="col-lg-4 mt-4 contactColumn">
+                        <i class="fa-regular fa-envelope fa-4x"></i>
+                        <h3>Adresse email</h3>
+                        <p>alex.ben-larbi@hotmail.fr</p>
+                    </div>
+                    <div class="col-lg-4 mt-4 contactColumn">
+                        <i class="fa-brands fa-linkedin-in fa-4x"></i>
+                        <h3>LinkedIn</h3>
+                        <p>Pas de Linkedin</p>
                     </div>
                 </div>
             </div>
-    </section>
-
-    <!-- skills section-->
-    <section id="skills">
-        <div class="container">
-            <h2 class="text-center">Mes compétences</h2>
-        </div>
-    </section>
-
-    <!-- portfolio section-->
-    <section id="portfolio">
-        <div class="container mt-3">
-            <h2 class="text-center">Mes projets</h2>
-    </section>
-
-    <!-- contact section-->
-    <section id="contact">
-        <div class="container mt-3 contactContent">
-            <h2 class="text-center">Contactez-moi</h2>
-            <div class="row">
-                <div class="col-lg-4 mt-4 contactColumn">
-                    <i class="fa-solid fa-phone fa-4x"></i>
-                    <h3>Téléphone</h3>
-                    <p>Non</p>
-                </div>
-                <div class="col-lg-4 mt-4 contactColumn">
-                    <i class="fa-regular fa-envelope fa-4x"></i>
-                    <h3>Adresse email</h3>
-                    <p>alex.ben-larbi@hotmail.fr</p>
-                </div>
-                <div class="col-lg-4 mt-4 contactColumn">
-                    <i class="fa-brands fa-linkedin-in fa-4x"></i>
-                    <h3>LinkedIn</h3>
-                    <p>Pas de Linkedin</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+        <div id="star-pattern"></div>
+    </main>
+    
+    
 
     <!-- load javascript after loading all html content -->
     <script src="script/script.js"></script>
+    <script src="script/stars.js"></script>
+    <script src="script/personal_skill.js"></script>
+    <script src="script/personal_portfolio.js"></script>
 
+    <footer class="footer">
+        <p>blah</p>
+    </footer>
 </body>
 
 </html>
