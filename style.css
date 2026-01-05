@@ -45,9 +45,11 @@
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    background-color: transparent;
 }
 .hero_desc {
     font-size: 2rem;
+    background-color: transparent;
 }
 .hero-text {
     text-align: center;
@@ -90,11 +92,6 @@
 }
 .card:hover .skillsIcon {
     color: #008000;
-}
-
-.card-img-top{
-    height: 200px;
-    width: 500px;
 }
 
 .skillsText:hover, .personalSkillsText:hover {
