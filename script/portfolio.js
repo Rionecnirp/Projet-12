@@ -1,4 +1,39 @@
 // Function to dynamically create HTML elements from the JSON file
+function addModalListeners() {
+    const buttons = document.querySelectorAll(".open-project-modal");
+
+    buttons.forEach(button => {
+        button.addEventListener("click", () => {
+            const index = button.dataset.projectIndex;
+            const project = portfolioData[index];
+            const progressionList = document.getElementById("modalProgression");
+            progressionList.innerHTML = "";
+
+            document.getElementById("modalTitle").textContent = project.title;
+            document.getElementById("modalResume").textContent = project.resumeText;
+            document.getElementById("modalObjective").textContent = project.objectiveText;
+
+            if (project.progressionText && project.progressionText.length > 0) {
+            project.progressionText.forEach(progression => {
+                const li = document.createElement("li");
+                li.textContent = progression;
+                progressionList.appendChild(li);
+            });
+            }
+            
+            const link = document.getElementById("modalLink");
+            if (project.link) {
+                link.href = project.link;
+                link.style.display = "inline-block";
+            } else {
+                link.style.display = "none";
+            }
+        });
+    });
+}
+
+let portfolioData = [];
+
 function createPortfolioFromJSON() {
     const container = document.querySelector("#professional_portfolio");
     let row = document.createElement("div");
@@ -8,6 +43,7 @@ function createPortfolioFromJSON() {
     fetch("data/portfolio.json")
         .then((response) => response.json())
         .then((data) => {
+            portfolioData = data;
             // Iterate through the JSON data and create HTML elements
             data.forEach((item, index) => {
                 const card = document.createElement("div");
@@ -16,10 +52,16 @@ function createPortfolioFromJSON() {
                     <div class="card portfolioContent">
                     <img class="card-img-top" src="images/Portfolio/${item.image}" style="width:100%" alt="${item.alt}">
                     <div class="card-body">
-                        <h3 class="card-title">${item.title}</h4>
-                        <p class="card-text">${item.text}</p>
+                        <h4 class="card-title">${item.title}</h4>
                         <div class="text-center">
-                            <a href="${item.link}" class="btn btn-success" target="_blank" rel="noopener noreferrer">Lien</a>
+                            <button 
+                            class="btn btn-success open-project-modal"
+                            data-project-index="${index}"
+                            data-bs-toggle="modal"
+                            data-bs-target="#projectModal"
+                            >
+                                Détails du projet
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -35,6 +77,7 @@ function createPortfolioFromJSON() {
                     row.classList.add("row");
                 }
             });
+            addModalListeners();
         });
 }
 

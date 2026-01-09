@@ -60,6 +60,9 @@ function createSkillsFromJSON() {
         });
 }
 
+// modal
+
+
 
 // Call the functions to execute the code
 handleNavbarScroll();

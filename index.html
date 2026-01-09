@@ -53,6 +53,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                        <div class="hero_background"></div>
                         <h1 class="hero_title">"La peinture est une poésie qui se voit au lieu de se sentir"</h1>
                         <h2 class="hero_desc">"Et la poésie est une peinture qui se sent au lieu de se voir"</h2>
                     </div>
@@ -151,9 +152,43 @@
             </div>
         </section>
         <div id="star-pattern"></div>
+
+        
+
     </main>
     
-    
+    <!-- MODALE PROJET -->
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+        <div class="modal-header">
+            <h5 class="modal-title" id="modalTitle"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body">
+            <h6>Résumé du projet :</h6>
+            <p id="modalResume"></p>
+            <h6>Objectif du projet :</h6>
+            <p id="modalObjective"></p>
+            <h6>Ce que j'ai appris :</h6>
+            <ul id="modalProgression"></ul>
+        </div>
+
+        <div class="modal-footer">
+            <a id="modalLink" class="btn btn-success" target="_blank" rel="noopener noreferrer">
+            Lien du projet
+            </a>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Fermer
+            </button>
+        </div>
+
+        </div>
+    </div>
+    </div>
+
 
     <!-- load javascript after loading all html content -->
     <script src="script/script.js"></script>

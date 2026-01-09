@@ -2,7 +2,9 @@
     {
         "image": "Booki.webp",
         "title": "Booki",
-        "text": "Description",
+        "resumeText": "Un site fictif servant comme premier pas dans le monde de la création de site responsive.",
+        "objectiveText": "Booki sert de premier pas dans la création d’interface responsive, de création de code HTML et CSS, mais aussi de premier pas dans le suivi d’une maquette Figma. L’idée est d’analyser et de transformer l’affichage de la maquette en une page internet accessible à la fois sur pc, mais aussi sur tablette et téléphone avec une interface adaptée.",
+        "progressionText": ["Structuration de contenu HTML", "Mise en page CSS", "Fidélité de design fourni", "Création de design responsive", "Utilisation des outils devtools"],
         "link": "https://github.com/Rionecnirp/Projet-3-Booki",
         "alt": "placeholder"
     },

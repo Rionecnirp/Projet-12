@@ -1,37 +1,9 @@
 [
     {
-        "image": "Booki.webp",
-        "title": "Booki",
-        "text": "Description",
-        "link": "https://github.com/Rionecnirp/Projet-3-Booki",
-        "alt": "placeholder"
-    },
-    {
-        "image": "sophie-bluel.webp",
-        "title": "Sophie Bluel",
-        "text": "Description",
-        "link": "https://github.com/Rionecnirp/Projet-7-Sophie-Bluel",
-        "alt": "placeholder"
-    },
-    {
-        "image": "Kasa.webp",
-        "title": "Kasa",
-        "text": "Description",
-        "link": "https://github.com/Rionecnirp/KASA",
-        "alt": "placeholder"
-    },
-    {
-        "image": "eco-bliss-bath.webp",
-        "title": "Eco Bliss Bath",
-        "text": "Description",
-        "link": "https://github.com/Rionecnirp/Eco-Bliss-Bath",
-        "alt": "placeholder"
-    },
-    {
-        "image": "print-it.webp",
-        "title": "Print it",
-        "text": "Description",
-        "link": "https://github.com/Rionecnirp/Projet-6-Print-it",
-        "alt": "placeholder"
+        "image": "Future.webp",
+        "title": "L'Histoire n'est pas encore écrite",
+        "text": "",
+        "link": "",
+        "alt": "Future projects will be placed here"
     }
 ]
