@@ -136,6 +136,10 @@
     color: #198754;
 }
 
+.honeypot {
+    display: none;
+}
+
 /* footer */
 
 .footer {
@@ -144,4 +148,24 @@
     padding: 20px 0;
     color: white;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#portfolioCarousel {
+    width: 75%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.carousel-item {
+    height: 100px;
+    background-image: linear-gradient(147deg,#5f35a1,#080808 80%);
+}
+
+.footer_logo {
+    height: 100px;
+    padding-left: 50px;
 }

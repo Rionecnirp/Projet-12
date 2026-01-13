@@ -132,6 +132,36 @@
         <section id="contact">
             <div class="container mt-3 contactContent">
                 <h2 class="text-center">Contactez-moi</h2>
+                <form action="https://formsubmit.co/alex.ben-larbi@hotmail.fr" method="post" class="row g-3" id="contact-form">
+
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="_honey" class="honeypot">
+
+                    <div class="col-md-6">
+                        <label for="firstName" class="form-label">Prénom</label>
+                        <input type="text" class="form-control" name="prenom" id="firstName" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label">Nom</label>
+                        <input type="text" class="form-control" name="nom" id="lastName" required>
+                    </div>
+
+                    <div class="col-md-12">
+                        <label for="emailInfo" class="form-label">Adresse email</label>
+                        <input type="email" class="form-control" name="email" id="emailInfo" required>
+                    </div>
+
+                    <div class="col-md-12">
+                        <label for="comments" class="form-label">Message</label>
+                        <textarea name="message" class="form-control" id="comments" rows="3" required></textarea>
+                    </div>
+
+                    <div class="col-md-1">
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </div>
+
+                </form>
                 <div class="row">
                     <div class="col-lg-4 mt-4 contactColumn">
                         <i class="fa-solid fa-phone fa-4x"></i>
@@ -153,10 +183,26 @@
         </section>
         <div id="star-pattern"></div>
 
-        
-
     </main>
     
+    <footer class="footer">
+        <a href="#home"><img src="images/Rionecnirp rough logo V1.webp" alt="Logo" class="footer_logo"></a>
+        <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+            <div class="carousel-inner rounded-4" id="carouselContent">
+                <!-- Slides injectées par JS -->
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Suivant</span>
+            </button>
+        </div>
+    </footer>
+
     <!-- MODALE PROJET -->
     <div class="modal fade" id="projectModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -164,7 +210,7 @@
 
         <div class="modal-header">
             <h5 class="modal-title" id="modalTitle"></h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
         </div>
 
         <div class="modal-body">
@@ -192,13 +238,9 @@
 
     <!-- load javascript after loading all html content -->
     <script src="script/script.js"></script>
-    <script src="script/stars.js"></script>
     <script src="script/personal_skill.js"></script>
     <script src="script/portfolio.js"></script>
-
-    <footer class="footer">
-        <p>blah</p>
-    </footer>
+    <script src="script/footer_carousel.js"></script>
 </body>
 
 </html>
