@@ -1,36 +1,36 @@
 [
     {
-        "image": "Hards-Skills-Bureautiques.webp",
+        "image": "Skills/Hards-Skills-Bureautiques.webp",
         "title": "Outils bureautique",
         "text": "Utilisation régulière de Libre Office & Word ainsi que les outils partagés de Google",
         "alt": "Compétence personnelle - Outils de Bureautique"
     },
     {
-        "image": "placeholder.webp",
+        "image": "Skills/outils_recuperation.webp",
         "title": "Outils de récupération de données",
         "text": "Recurva & Ontrack, ainsi que 7zip",
-        "alt": "placeholder"
+        "alt": "Compétence personnelle - Outils de récupération de données"
     },
     {
-        "image": "placeholder.webp",
+        "image": "Skills/anglais.webp",
         "title": "Anglais",
         "text": "Parlé couramment et de manière fluide",
-        "alt": "placeholder"
+        "alt": "Compétence personnelle - Langue anglaise"
     },
     {
-        "image": "placeholder.webp",
+        "image": "Skills/creation_documentation.webp",
         "title": "Création de documentation",
-        "text": "placeholder",
-        "alt": "placeholder"
+        "text": "Création de documentation personnelle et professionnelle",
+        "alt": "Compétence personnelle - Création de documentation"
     },
     {
-        "image": "placeholder.webp",
+        "image": "Skills/Gestion_groupe.webp",
         "title": "Gestion de groupes",
         "text": "Gestion de projet vacances de petits groupes (-10 personnes) et de grands groupes (15+ personnes). Gestion d'activité hebdomadaire en groupe",
-        "alt": "placeholder"
+        "alt": "Compétence personnelle - Gestion de groupe"
     },
     {
-        "image": "placeholder.webp",
+        "image": "Skills/modification_images.webp",
         "title": "Modification d'images",
         "text": "Utilisation personnelle de Paint.net pour modifier ou transformer une image en une autre",
         "alt": "placeholder"
