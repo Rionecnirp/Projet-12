@@ -2,7 +2,9 @@
     {
         "image": "Future.webp",
         "title": "L'Histoire n'est pas encore écrite",
-        "text": "",
+        "resumeText": "Emplacement pour un futur projet personné terminé",
+        "objectiveText": "Les objectifs des futurs projets terminés seront écrit ici.",
+        "progressionText": ["Exemple 1", "Exemple 2", "Exemple 3"],
         "link": "",
         "alt": "Future projects will be placed here"
     }

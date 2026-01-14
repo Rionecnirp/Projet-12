@@ -2,57 +2,73 @@
     {
         "image": "Livres.webp",
         "title": "Série de livres",
-        "text": "Description",
-        "link": "https://github.com/Rionecnirp/Projet-3-Booki",
-        "alt": "placeholder"
+        "resumeText": "Une série de romans Fantaisy autour d'un univers créé de toute pièce.",
+        "objectiveText": "Depuis 2015 j'ai le désir de devenir auteur et ait une idée de romans que je souhaite mettre sur papier.",
+        "progressionText": ["Rien pour le moment"],
+        "link": "",
+        "alt": "Série de romans fantaisy"
     },
     {
         "image": "FE_logo.webp",
         "title": "Fan game Fire Emblem",
-        "text": "Description",
-        "link": "https://github.com/Rionecnirp/Projet-7-Sophie-Bluel",
-        "alt": "placeholder"
+        "resumeText": "Un jeu vidéo inspiré par la série de Nintendo nommé Fire Emblem",
+        "objectiveText": "FE Editor est un outil permettant de créer des romhack et fangame basé sur la série de jeu vidéo Fire Emblem. Codé en Python et acceptant des scripts externes, le but serait de créer un jeu (gratuit) en une dizaine de chapitre pour apprendre à utiliser l'éditeur et me faire la main avec le langage de programmation Python. Si ce projet parviens à aboutir, alors un second jeu plus long pourra être envisagé.",
+        "progressionText": ["Rien pour le moment"],
+        "link": "",
+        "alt": "Jeu Fire Emblem"
     },
     {
         "image": "Python.webp",
         "title": "Apprentissage de Python",
-        "text": "Description",
-        "link": "https://github.com/Rionecnirp/KASA",
-        "alt": "placeholder"
+        "resumeText": "Pour avancer dans des projets futurs",
+        "objectiveText": "Python est très célèbre et (supposément) très facile à apprendre. Je souhaite donc prendre le temps d'apprendre les rudimentaires de Python dans un premier temps pour travailler sur d'autres projets.",
+        "progressionText": ["Rien pour le moment"],
+        "link": "",
+        "alt": "Apprentissage du Python"
     },
     {
         "image": "Ruby_On_Rails.webp",
         "title": "Apprentissage de Ruby on Rails",
-        "text": "Description",
-        "link": "https://github.com/Rionecnirp/Eco-Bliss-Bath",
-        "alt": "placeholder"
+        "resumeText": "Pour aider un ami",
+        "objectiveText": "Une personne que j'ai découvert en 2024 a fait un fan game Pokémon sur un editeur fonctionnant entièrement sur Ruby on Rails. Je me suis mis en tête d'apprendre le langage parce qu'il ne me parait pas très utilisé et donc peut être un argument de poids sur un CV (ça et pouvoir créer mes propres scripts en Ruby on Rails).",
+        "progressionText": ["Rien pour le moment"],
+        "link": "",
+        "alt": "Apprentissage de Ruby On Rails"
     },
     {
         "image": "Foundry_logo.webp",
         "title": "Mise à jour de modules Foundry",
-        "text": "Description",
-        "link": "https://github.com/Rionecnirp/Projet-6-Print-it",
-        "alt": "placeholder"
+        "resumeText": "Mettre à jour des modules existants",
+        "objectiveText": "Foundry est un logiciel permettant de faire du Jeu de Rôle en ligne. Les modules permettant de gérer les systèmes de Jeu de Rôle fonctionnent grâce à du Javascript et certains modules que j'utilise ne sont plus mis à jour. Je souhaite donc les reprendre ou faire un fork de ces derniers et les mettre à jour.",
+        "progressionText": ["Rien pour le moment"],
+        "link": "https://github.com/SvenWerlen/foundryvtt-pathfinder1-fr",
+        "alt": "Mise à jour Foundry"
     },
     {
         "image": "Caravan_logo.webp",
         "title": "Jeu de carte Caravan (Tabletop Simulator / Navigateur)",
-        "text": "Description",
-        "link": "https://github.com/Rionecnirp/Projet-6-Print-it",
-        "alt": "placeholder"
+        "resumeText": "Une adaptation du jeu de carte Caravan avec une fluidification de ses règles",
+        "objectiveText": "Caravan est un jeu de carte apparaissant dans le Jeu vidéo Fallout New Vegas où deux joueurs doivent vendre deux de leurs trois caravanes pour gagner la partie. Le jeu de carte étant très agréable à jouer, je souhaite créer mon propre module sur le jeu vidéo Tabletop Simulator. Cela demandera de recréer des assets et un script en lua pour pouvoir automatiser le jeu le plus possible. De plus, je souhaite voir s'il est possible de faire aussi une version par navigateur (je n'ai pas encore regardé comment cela pourrait être possible, mais c'est prévu)",
+        "progressionText": ["Rien pour le moment"],
+        "link": "https://www.pagat.com/invented/caravan.html",
+        "alt": "Jeu de cartes Caravan"
     },
     {
         "image": "Multimonde.webp",
         "title": "Projet de groupe : Multimonde",
-        "text": "Description",
-        "link": "https://github.com/Rionecnirp/Projet-6-Print-it",
-        "alt": "placeholder"
+        "resumeText": "Un travail d'écriture et de worldbuilding en groupe",
+        "objectiveText": "En 2022, j'ai demandé à toutes les personnes proches de moi si elles souhaitaient participer à un exercice de création de pays dans un monde de fantasy. J'ai récolté les idées de plus d'une quinzaine de personnes et ait pour but de transformer ceci en un setting utilisable en Jeu de Rôle ou pour des Romans au public.",
+        "progressionText": ["Rien pour le moment"],
+        "link": "https://docs.google.com/document/d/1AyjPm3577D4Ei8tatlHwfwrOfS-QdMmtZ0n7BP75kLo/edit?usp=sharing",
+        "alt": "Projet de groupe : Multimonde"
     },
     {
         "image": "Anima_logo.webp",
         "title": "Wiki Anima : Beyond Fantasy FR",
-        "text": "Description",
-        "link": "https://github.com/Rionecnirp/Projet-6-Print-it",
-        "alt": "placeholder"
+        "resumeText": "Création d'un wiki FR pour le jeu de Rôle Anima : Beyond Fantasy",
+        "objectiveText": "Anima : Beyond Fantasy est un jeu de Rôle Espagnol créé par Carlos B. Garcia Aparicio qui n'est actuellement plus édité. Depuis plusieurs années les livres sont devenus quasiment introuvables et contrairement à d'autres Jeu de Rôle, quasiment aucunes ressources n'existent pour pouvoir y jouer en dématérialisé. Plusieurs projets pour créer un espace internet avec les ressources nécessaires ont été arrêté pour diverses raisons et j'ai pris la décision d'utiliser les livres que je possède pour faire un wiki utilisable par tous.",
+        "progressionText": [],
+        "link": "",
+        "alt": "Wiki Anima Jeu de Rôle"
     }
 ]

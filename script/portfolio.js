@@ -4,16 +4,19 @@ function addModalListeners() {
 
     buttons.forEach(button => {
         button.addEventListener("click", () => {
+            const portfolioKey = button.dataset.portfolio;
             const index = button.dataset.projectIndex;
-            const project = portfolioData[index];
-            const progressionList = document.getElementById("modalProgression");
-            progressionList.innerHTML = "";
+            const project = portfolios[portfolioKey][index];
+            if(!project) return ;
 
             document.getElementById("modalTitle").textContent = project.title;
             document.getElementById("modalResume").textContent = project.resumeText;
             document.getElementById("modalObjective").textContent = project.objectiveText;
 
-            if (project.progressionText && project.progressionText.length > 0) {
+            const progressionList = document.getElementById("modalProgression");
+            progressionList.innerHTML = "";
+
+            if (project.progressionText?.length) {
             project.progressionText.forEach(progression => {
                 const li = document.createElement("li");
                 li.textContent = progression;
@@ -32,7 +35,13 @@ function addModalListeners() {
     });
 }
 
-let portfolioData = [];
+const portfolios = {
+    professional: [],
+    personalDone: [],
+    personalFuture: []
+}
+
+
 
 function createPortfolioFromJSON() {
     const container = document.querySelector("#professional_portfolio");
@@ -43,7 +52,7 @@ function createPortfolioFromJSON() {
     fetch("data/portfolio.json")
         .then((response) => response.json())
         .then((data) => {
-            portfolioData = data;
+            portfolios.professional = data;
             // Iterate through the JSON data and create HTML elements
             data.forEach((item, index) => {
                 const card = document.createElement("div");
@@ -56,6 +65,7 @@ function createPortfolioFromJSON() {
                         <div class="text-center">
                             <button 
                             class="btn btn-success open-project-modal"
+                            data-portfolio="professional"
                             data-project-index="${index}"
                             data-bs-toggle="modal"
                             data-bs-target="#projectModal"
@@ -90,6 +100,7 @@ function createPersonalDonePortfolioFromJSON() {
     fetch("data/personal_portfolio_done.json")
         .then((response) => response.json())
         .then((data) => {
+            portfolios.personalDone = data;
             // Iterate through the JSON data and create HTML elements
             data.forEach((item, index) => {
                 const card = document.createElement("div");
@@ -98,10 +109,17 @@ function createPersonalDonePortfolioFromJSON() {
                     <div class="card portfolioContent">
                     <img class="card-img-top" src="images/Portfolio/${item.image}" style="width:100%" alt="${item.alt}">
                     <div class="card-body">
-                        <h3 class="card-title">${item.title}</h4>
-                        <p class="card-text">${item.text}</p>
+                        <h4 class="card-title">${item.title}</h4>
                         <div class="text-center">
-                            <a href="${item.link}" class="btn btn-success" target="_blank" rel="noopener noreferrer">Lien</a>
+                            <button 
+                            class="btn btn-success open-project-modal"
+                            data-portfolio="personalDone"
+                            data-project-index="${index}"
+                            data-bs-toggle="modal"
+                            data-bs-target="#projectModal"
+                            >
+                                Détails du projet
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -117,6 +135,7 @@ function createPersonalDonePortfolioFromJSON() {
                     row.classList.add("row");
                 }
             });
+            addModalListeners();
         });
 }
 
@@ -129,6 +148,7 @@ function createPersonalFuturePortfolioFromJSON() {
     fetch("data/personal_portfolio_future.json")
         .then((response) => response.json())
         .then((data) => {
+            portfolios.personalFuture = data;
             // Iterate through the JSON data and create HTML elements
             data.forEach((item, index) => {
                 const card = document.createElement("div");
@@ -137,10 +157,17 @@ function createPersonalFuturePortfolioFromJSON() {
                     <div class="card portfolioContent">
                     <img class="card-img-top" src="images/Portfolio/${item.image}" style="width:100%" alt="${item.alt}">
                     <div class="card-body">
-                        <h3 class="card-title">${item.title}</h4>
-                        <p class="card-text">${item.text}</p>
+                        <h4 class="card-title">${item.title}</h4>
                         <div class="text-center">
-                            <a href="${item.link}" class="btn btn-success" target="_blank" rel="noopener noreferrer">Lien</a>
+                            <button 
+                            class="btn btn-success open-project-modal"
+                            data-portfolio="personalFuture"
+                            data-project-index="${index}"
+                            data-bs-toggle="modal"
+                            data-bs-target="#projectModal"
+                            >
+                                Détails du projet
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -156,6 +183,7 @@ function createPersonalFuturePortfolioFromJSON() {
                     row.classList.add("row");
                 }
             });
+            addModalListeners();
         });
 }
 

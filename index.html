@@ -70,7 +70,7 @@
                         <img src="images/Rio IA.webp" class="imageAboutPage" alt="placeholder">
                     </div>
 
-                    <div class="col-lg-8">
+                    <article class="col-lg-8">
                         <p>
                             Je me nomme Alexandre Ben Larbi, en 2021 je suis entré dans le monde du travail sous le poste de Technicien Support chez <a href="https://letsignit.com/fr">Letsignit</a>. En 2023 j'ai recherché d'autres horizons et j'ai trouvé un poste de Technicien Paramétrage à <a href="https://www.vtf-vacances.com/fr_FR/">VTF Vacances</a>. À présent, je recherche de nouvelles expériences.
                         </p>
@@ -93,8 +93,9 @@
                         </ul>
                         <p>Créateur dans l'âme je souhaite continuer de créer, continuer d'apprendre, continuer de progresser.</p>
                         <p>Vous trouverez si dessous les compétences que je possède ainsi que les projets sur lesquels j'ai pu travailler.</p>
-                    </div>
+                    </article>
                 </div>
+            </div>
         </section>
 
         <!-- skills section-->
@@ -132,22 +133,17 @@
         <section id="contact">
             <div class="container mt-3 contactContent">
                 <h2 class="text-center">Contactez-moi</h2>
-                <form action="https://formsubmit.co/92bc4dbd15853b0531e4a6a42e09844c" method="post" class="row g-3" id="contact-form">
+                <form action="https://formsubmit.co/92bc4dbd15853b0531e4a6a42e09844c" method="post" class="row g-3" id="contact-form" target="_blank">
 
                     <input type="hidden" name="_captcha" value="false">
                     <input type="text" name="_honey" class="honeypot">
 
                     <div class="col-md-6">
-                        <label for="firstName" class="form-label">Prénom</label>
-                        <input type="text" class="form-control" name="prenom" id="firstName" required>
+                        <label for="firstName" class="form-label">Nom & Prénom</label>
+                        <input type="text" class="form-control" name="nom_prenom" id="firstName" required>
                     </div>
 
                     <div class="col-md-6">
-                        <label for="lastName" class="form-label">Nom</label>
-                        <input type="text" class="form-control" name="nom" id="lastName" required>
-                    </div>
-
-                    <div class="col-md-12">
                         <label for="emailInfo" class="form-label">Adresse email</label>
                         <input type="email" class="form-control" name="email" id="emailInfo" required>
                     </div>
@@ -162,23 +158,6 @@
                     </div>
 
                 </form>
-                <div class="row">
-                    <div class="col-lg-4 mt-4 contactColumn">
-                        <i class="fa-solid fa-phone fa-4x"></i>
-                        <h3>Téléphone</h3>
-                        <p>Non</p>
-                    </div>
-                    <div class="col-lg-4 mt-4 contactColumn">
-                        <i class="fa-regular fa-envelope fa-4x"></i>
-                        <h3>Adresse email</h3>
-                        <p>alex.ben-larbi@hotmail.fr</p>
-                    </div>
-                    <div class="col-lg-4 mt-4 contactColumn">
-                        <i class="fa-brands fa-linkedin-in fa-4x"></i>
-                        <h3>LinkedIn</h3>
-                        <p>Pas de Linkedin</p>
-                    </div>
-                </div>
             </div>
         </section>
         <div id="star-pattern"></div>
@@ -205,34 +184,34 @@
 
     <!-- MODALE PROJET -->
     <div class="modal fade" id="projectModal" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
 
-        <div class="modal-header">
-            <h5 class="modal-title" id="modalTitle"></h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
-        </div>
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">Close</button>
+                </div>
 
-        <div class="modal-body">
-            <h6>Résumé du projet :</h6>
-            <p id="modalResume"></p>
-            <h6>Objectif du projet :</h6>
-            <p id="modalObjective"></p>
-            <h6>Ce que j'ai appris :</h6>
-            <ul id="modalProgression"></ul>
-        </div>
+                <div class="modal-body">
+                    <h6>Résumé du projet :</h6>
+                    <p id="modalResume"></p>
+                    <h6>Objectif du projet :</h6>
+                    <p id="modalObjective"></p>
+                    <h6>Ce que j'ai appris :</h6>
+                    <ul id="modalProgression"></ul>
+                </div>
 
-        <div class="modal-footer">
-            <a id="modalLink" class="btn btn-success" target="_blank" rel="noopener noreferrer">
-            Lien du projet
-            </a>
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-            Fermer
-            </button>
-        </div>
+                <div class="modal-footer">
+                    <a id="modalLink" class="btn btn-success" target="_blank" rel="noopener noreferrer">
+                    Lien du projet
+                    </a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    Fermer
+                    </button>
+                </div>
 
+            </div>
         </div>
-    </div>
     </div>
 
 

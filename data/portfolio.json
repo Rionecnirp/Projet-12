@@ -6,34 +6,42 @@
         "objectiveText": "Booki sert de premier pas dans la création d’interface responsive, de création de code HTML et CSS, mais aussi de premier pas dans le suivi d’une maquette Figma. L’idée est d’analyser et de transformer l’affichage de la maquette en une page internet accessible à la fois sur pc, mais aussi sur tablette et téléphone avec une interface adaptée.",
         "progressionText": ["Structuration de contenu HTML", "Mise en page CSS", "Fidélité de design fourni", "Création de design responsive", "Utilisation des outils devtools"],
         "link": "https://github.com/Rionecnirp/Projet-3-Booki",
-        "alt": "placeholder"
+        "alt": "Projet OpenClassrooms 3 - Booki"
     },
     {
         "image": "sophie-bluel.webp",
         "title": "Sophie Bluel",
-        "text": "Description",
+        "resumeText": "Création de site web dynamique grâce à Javascript.",
+        "objectiveText": "Le site de Sophie Bluel permet d’apprendre à mettre en place du code qui récupère des informations stockées et de les présenter de manière dynamique (sous la forme d’une modale et triable via un système de filtre). Une page de connexion était aussi demandée pour pouvoir faire des modifications dans la liste des appartements présentés côté utilisateur.",
+        "progressionText": ["Création de modale", "Gestion utilisateur/administrateur via l’API donnée", "Création de filtres", "Création d’une galerie modifiable"],
         "link": "https://github.com/Rionecnirp/Projet-7-Sophie-Bluel",
-        "alt": "placeholder"
+        "alt": "Projet OpenClassrooms 7 - Sophie Bluel"
     },
     {
         "image": "Kasa.webp",
         "title": "Kasa",
-        "text": "Description",
+        "resumeText": "Création d’application web avec React",
+        "objectiveText": "Ce projet consistait à faire l’implémentation du côté front-end en se servant de React du début jusqu’à la fin en suivant une maquette Figma. De plus, il était nécessaire de gérer l’intégration entre le front-end et le back-end déjà fourni. Enfin, la création de tests unitaires fut nécessaire pour pouvoir vérifier le bon fonctionnement des composants.",
+        "progressionText": ["Apprentissage de React", "Utilisation de composants réutilisables", "Création de tests unitaires via Vite", "Routage des pages de l’application web", "Gestion des appels API"],
         "link": "https://github.com/Rionecnirp/KASA",
-        "alt": "placeholder"
+        "alt": "Projet OpenClassrooms 8 - Kasa"
     },
     {
         "image": "eco-bliss-bath.webp",
         "title": "Eco Bliss Bath",
-        "text": "Description",
+        "resumeText": "Automatisation de tests avec Cypress pour un site d'e-commerce",
+        "objectiveText": "En me basant sur les tests manuels précédemment faits, j’ai dû créer des tests automatisé en javascript pour vérifier l’intégralité du site d’e-commerce grâce à l’outil Cypress. Les scripts avaient pour but de tester le site comme un utilisateur classique le ferait et de vérifier les liens d’entre le Front-End et le Back-end. Enfin, un rapport de tests devait être produit pour donner un état général du site avant mise en production.",
+        "progressionText": ["Apprentissage de Cypress", "Création de scripts automatisés", "Rédaction de rapport de tests automatisés"],
         "link": "https://github.com/Rionecnirp/Eco-Bliss-Bath",
-        "alt": "placeholder"
+        "alt": "Projet OpenClassrooms 10 - Eco Bliss Bath"
     },
     {
         "image": "print-it.webp",
         "title": "Print it",
-        "text": "Description",
+        "resumeText": "Premiers pas dans Javascript et création d'un carrousel intéractif",
+        "objectiveText": "Ce projet permet de toucher aux fondamentaux de Javascript pour rendre des sites dynamiques. La tâche principale de ce projet est de créer un carrousel et de nettoyer le code HTML statique pour laisser place au code dynamique. En plus du résultat demandé, j’ai pris la liberté de créer un petit timer de 10 secondes visible en haut de l’image active du carrousel.",
+        "progressionText": ["Apprentissage de Javascript", "Gestion des événements utilisateurs", "début de création d’animations"],
         "link": "https://github.com/Rionecnirp/Projet-6-Print-it",
-        "alt": "placeholder"
+        "alt": "Projet OpenClassrooms 6 - Print it"
     }
 ]

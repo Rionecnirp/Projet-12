@@ -4,8 +4,8 @@
 #skills,
 #portfolio,
 #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
 }
 #about h2,
 #skills h2,
@@ -124,6 +124,10 @@
 
 #personal_portfolio_future .card-img-top {
     height: 200px;
+}
+
+#personal_portfolio_future {
+    padding-top: 20px;
 }
 
 /* contact */
