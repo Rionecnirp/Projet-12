@@ -1,5 +1,6 @@
 /******* GENERAL *******/
 /* spacing on all sections */
+
 #about,
 #skills,
 #portfolio,
@@ -94,6 +95,7 @@ h6 {
     height: 150px;
     object-fit: contain;
 }
+
 #skills p {
     text-align: center;
 }
@@ -177,4 +179,117 @@ h6 {
 .footer_logo {
     height: 100px;
     padding-left: 50px;
+}
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+
+@media (max-width: 1023.9px) {
+
+    #about, #skills, #portfolio, #contact {
+        padding-top : 0;
+    }
+
+    #about h2, #skills h2, #portfolio h2, #contact h2 {
+        margin-bottom: 1.5rem;
+    } 
+
+    .bgimage {
+        height: 50vh;
+    }
+
+    .hero_title {
+        font-size: 3rem;
+    }
+
+    .hero_desc {
+        font-size: 1.5rem;
+    }
+
+    .container_img {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .text_about {
+        text-align: justify;
+    }
+
+    .imageAboutPage {
+        width: 50%;
+    }
+
+    .col-lg-4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+
+
+    .btn_carousel {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top:0px;
+        border: none;
+        z-index: 1;
+        font-size: 0px;
+    }
+
+    .btn_carousel:hover {
+        background-color : rgba(0, 0, 0, 0);
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+
+    #skills p {
+        text-align : justify;
+    }
+
+    .hero_title {
+        font-size: 1.5rem;
+    }
+
+    .hero_desc {
+        font-size: 1rem;
+    }
+
+    .imageAboutPage {
+        display: none;
+    }
+
+    .skillsText img, .personalSkillsText img {
+        height: 100px;
+    }
+
+    .skillsText.card, .personalSkillsText.card {
+        height: auto;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    #personal_portfolio_future .card-img-top {
+    height: auto;
+}
+
+.footer_logo {
+    height: 75px;
+    padding-left: 25px;
+}
+
+.mb-2 {
+    font-size: 11px;
+    text-align: justify;
+}
+
 }

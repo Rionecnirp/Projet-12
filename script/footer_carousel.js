@@ -14,11 +14,11 @@ function createFooterCarousel() {
                 }
 
                 carouselItem.innerHTML = `
-                  <div class="d-flex flex-column align-items-center text-center p-4">
+                  <div class="d-flex flex-column align-items-center text-center p-4 container_carousel">
                     <p class="mb-2">${project.resumeText}</p>
                     <a 
                       href="${project.link}" 
-                      class="btn btn-outline-light btn-sm"
+                      class="btn btn-outline-light btn-sm btn_carousel"
                       target="_blank" 
                       rel="noopener noreferrer"
                     >
