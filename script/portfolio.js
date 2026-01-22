@@ -59,7 +59,7 @@ function createPortfolioFromJSON() {
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
                     <div class="card portfolioContent">
-                    <img class="card-img-top" src="images/Portfolio/${item.image}" style="width:100%" alt="${item.alt}">
+                    <img class="card-img-top" src="images/Portfolio/${item.image}" alt="${item.alt}">
                     <div class="card-body">
                         <h4 class="card-title">${item.title}</h4>
                         <div class="text-center">
@@ -107,7 +107,7 @@ function createPersonalDonePortfolioFromJSON() {
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
                     <div class="card portfolioContent">
-                    <img class="card-img-top" src="images/Portfolio/${item.image}" style="width:100%" alt="${item.alt}">
+                    <img class="card-img-top" src="images/Portfolio/${item.image}" alt="${item.alt}">
                     <div class="card-body">
                         <h4 class="card-title">${item.title}</h4>
                         <div class="text-center">
@@ -155,7 +155,7 @@ function createPersonalFuturePortfolioFromJSON() {
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
                     <div class="card portfolioContent">
-                    <img class="card-img-top" src="images/Portfolio/${item.image}" style="width:100%" alt="${item.alt}">
+                    <img class="card-img-top" src="images/Portfolio/${item.image}" alt="${item.alt}">
                     <div class="card-body">
                         <h4 class="card-title">${item.title}</h4>
                         <div class="text-center">
